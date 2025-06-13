@@ -1,0 +1,68 @@
+h1{
+  color:Black;
+  font-size:32px;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background: linear-gradient(-45deg, #D8BFD8, #8B4513);
+  line-height: 1.9;
+  padding: 20px
+}
+header{
+  color:Black;
+  padding:20px;
+  border-radius:12px;
+  box-shadow: #8B4513 1px 1px 1px;
+  margin-bottom: 30px;
+}
+header h1{
+  font-size:3em;
+  color: brown;
+  text-shadow: 0 0 5px #f6bb05, 0 0 10px #32e3;
+  cursor: pointer;
+}
+nav ol{
+  display:flex;
+  font-weight:bold;
+  gap:40px;
+  margin-top: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 14px;
+  background-color: #b5651d;
+  border-radius: 6px;
+  transition: background-color 0.4s;
+}
+main section{
+  background-color:rgb(255, 255, 255,0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: #8B4513 1px 1px 1px;
+}
+h2{
+  color:#c46210 ;
+  margin-bottom: 10px;
+  border-left: 4px solid #c46210;
+  padding-left: 10px;
+}
+p, li, label{
+  font-size:1rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+}
